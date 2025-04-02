@@ -32,7 +32,7 @@ main_placeholder = st.empty()
 st.button("submit")
 st.sidebar.image(image="img.png",width=285)
 query = main_placeholder.text_input("Question: ")
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "api_key"
 
 llm = OpenAI(temperature=0.9, max_tokens=500)
 
